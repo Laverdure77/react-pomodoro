@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "parcel": "^2.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "name": "react-pomodoro",
+  "description": "React project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+      
+      "dev": "parcel src/index.html --public-url /",
+      "build": "parcel build src/index.html --public-url ./",
+      "prepare": "husky install"
+    },
+    
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Laverdure77/react-pomodoro.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Laverdure77/react-pomodoro/issues"
+  },
+  "homepage": "https://github.com/Laverdure77/react-pomodoro#readme"
+}
